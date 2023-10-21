@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityList">
+
+    <!-- SearchView -->
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- ListView -->
+    <ListView
+        android:id="@+id/listpersonas"
+        android:layout_width="364dp"
+        android:layout_height="322dp"
+        android:layout_below="@+id/searchView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón 1 -->
+    <Button
+        android:id="@+id/btn_compartir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listpersonas"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/compartir" />
+
+    <!-- Botón 2 -->
+
+    <!-- Botón 3 -->
+
+    <!-- Botón 4 -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_compartir"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="-52dp"
+        android:text="Ver Imagen" />
+
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="179dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="50dp"
+        android:text="Actulizar contacto" />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_actualizar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-40dp"
+        android:text="Eliminar Contacto" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">pm013p2023</string>
+    <string name="compartir">Compartir contacto</string>
+    <string name="Respuesta">Contacto guardado exitosamente</string>
+    <string name="ErrorResp">Error al guardar al contacto</string>
+    <string name="Respuesta_eliminar">Contacto eliminado exitosamente</string>
+    <string name="ErrorResp_eliminar">Error al eliminar al contacto</string>
+
+
+
+</resources>
